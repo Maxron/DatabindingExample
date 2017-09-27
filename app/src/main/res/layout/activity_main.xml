@@ -36,6 +36,13 @@
                 android:layout_height="wrap_content"
                 android:onClick="openCustomBinding"
                 android:text="Custom Binding" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openObserable"
+                android:text="Obserable Binding" />
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>

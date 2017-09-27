@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
     public void openCustomBinding(View view) {
         startActivity(new Intent(this, CustomBindingActivity.class));
     }
+
+    public void openObserable(View view) {
+        startActivity(new Intent(this, ObserableActivity.class));
+    }
 }
