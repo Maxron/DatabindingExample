@@ -11,6 +11,10 @@
         <variable
             name="obserableFieldUser"
             type="com.maxron.databindingexample.model.ObserableFieldUser" />
+
+        <variable
+            name="myHandler"
+            type="com.maxron.databindingexample.handler.MyHandler" />
     </data>
 
     <android.support.constraint.ConstraintLayout
@@ -23,6 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{obserableUser.firstName}"
+            android:onClick="@{myHandler::onClickedName}"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="8dp"
             android:layout_marginLeft="32dp"
