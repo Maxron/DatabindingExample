@@ -16,4 +16,8 @@ public class MainActivity extends AppCompatActivity {
     public void openBasic(View view) {
         startActivity(new Intent(this, BasicActivity.class));
     }
+
+    public void openCustomBinding(View view) {
+        startActivity(new Intent(this, CustomBindingActivity.class));
+    }
 }

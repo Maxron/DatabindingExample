@@ -29,6 +29,13 @@
                 android:layout_height="wrap_content"
                 android:onClick="openBasic"
                 android:text="Basic" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openCustomBinding"
+                android:text="Custom Binding" />
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>
